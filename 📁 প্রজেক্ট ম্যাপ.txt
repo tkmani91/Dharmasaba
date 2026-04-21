@@ -1,0 +1,63 @@
+📦 প্রজেক্ট রুট
+│
+├── 📂 api/                          ← সার্ভারলেস ফাংশন (Vercel)
+│   ├── chat.ts                      ← চ্যাটবট API
+│   └── github-upload.js             ← GitHub-এ ফাইল আপলোড
+│
+├── 📂 public/                       ← স্ট্যাটিক ফাইলস
+│   ├── 📂 data/                     ← JSON ডেটা ফাইলস
+│   │   ├── accountsPDFs.json        ← হিসাব/PDF তথ্য
+│   │   ├── liveChannels.json        ← লাইভ চ্যানেল
+│   │   ├── pdfFiles.json            ← PDF ফাইল তালিকা
+│   │   ├── pujaData.json            ← পূজা সংক্রান্ত তথ্য
+│   │   ├── schedules.json           ← সময়সূচী
+│   │   ├── songs.json               ← গানের তালিকা
+│   │   ├── organizationalProfile.json ← সংগঠনের প্রোফাইল
+│   │   └── resolutions.json         ← সিদ্ধান্ত/প্রস্তাবনা
+│   ├── google8642b...html           ← Google verification
+│   ├── manifest.json                ← PWA manifest
+│   ├── robots.txt                   ← SEO
+│   ├── sitemap.xml                  ← SEO sitemap
+│   └── sw.js                        ← Service Worker (PWA)
+│
+├── 📂 src/                          ← সোর্স কোড
+│   ├── 📂 components/               ← React কম্পোনেন্টস
+│   │   ├── ContactsList.tsx         ← যোগাযোগ তালিকা
+│   │   ├── FundCollection.tsx       ← চাঁদা/ফান্ড সংগ্রহ
+│   │   ├── Header.tsx               ← হেডার
+│   │   ├── InstallPrompt.tsx        ← PWA ইন্সটল প্রম্পট
+│   │   ├── InvitationList.tsx       ← আমন্ত্রণ তালিকা
+│   │   ├── JSONEditor.tsx           ← JSON এডিটর (Admin)
+│   │   ├── LoginPage.tsx            ← লগইন পেজ
+│   │   ├── MembersList.tsx          ← সদস্য তালিকা
+│   │   ├── OptimizedImage.tsx       ← অপটিমাইজড ছবি
+│   │   ├── OrganizationalProfile.tsx ← সংগঠনের প্রোফাইল
+│   │   ├── Resolutions.tsx          ← সিদ্ধান্ত পেজ
+│   │   └── download.ico            ← আইকন
+│   ├── 📂 utils/                    ← ইউটিলিটি ফাংশন
+│   │   ├── cn.ts                    ← className helper
+│   │   └── lazyLoad.tsx             ← Lazy loading
+│   ├── App.tsx                      ← মূল App কম্পোনেন্ট
+│   ├── index.css                    ← স্টাইলশিট
+│   ├── main.tsx                     ← Entry point
+│   └── vite-env.d.ts               ← Vite টাইপ
+│
+├── 📄 কনফিগ ফাইলস
+│   ├── .env.local                   ← এনভায়রনমেন্ট ভেরিয়েবল
+│   ├── .gitignore
+│   ├── package.json
+│   ├── tailwind.config.js           ← Tailwind CSS
+│   ├── postcss.config.js
+│   ├── tsconfig.json                ← TypeScript
+│   ├── vite.config.ts               ← Vite config
+│   └── vercel.json                  ← Vercel deployment
+│
+└── 📄 ডেটা ফাইলস (রুট)
+    ├── chatbot-data.json            ← চ্যাটবট ডেটা
+    ├── contacts.json                ← যোগাযোগ
+    ├── dynamicContent.json          ← ডাইনামিক কন্টেন্ট
+    ├── gallery-images.json          ← গ্যালারি ছবি
+    ├── invitations.json             ← আমন্ত্রণ
+    ├── members-data.json            ← সদস্য তথ্য
+    ├── members-login.json           ← লগইন তথ্য
+    └── quiz-archive.json            ← কুইজ আর্কাইভ
